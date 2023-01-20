@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "./static/css/main.e36c0a25.css",
+    "main.js": "./static/js/main.04257474.js",
+    "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
+    "static/media/projects2.png": "./static/media/projects2.d2bfa7ad212b833b278e.png",
+    "static/media/projects1.png": "./static/media/projects1.ae57705d46c8e4c7f4b7.png",
+    "static/media/mine-timer.png": "./static/media/mine-timer.9a7d6c38ac1321eab05a.png",
+    "static/media/shopping-cart.png": "./static/media/shopping-cart.ad93554c2a4ddf21294a.png",
+    "static/media/brown brick.jpg": "./static/media/brown brick.419db1dabd9411daaf3c.jpg",
+    "static/media/eudeladoedit.jpg": "./static/media/eudeladoedit.6646b5950d2c602de11c.jpg",
+    "static/media/star-wars.png": "./static/media/star-wars.555c7c9509848fb37229.png",
+    "static/media/javaScript.otf": "./static/media/javaScript.0d30e0c9a65f14fa5128.otf",
+    "static/media/recipe-app.png": "./static/media/recipe-app.09f6242fd27b0daf1d15.png",
+    "static/media/pinkbold.otf": "./static/media/pinkbold.2a57b2c5cd9801f202c4.otf",
+    "static/media/pinkSub.otf": "./static/media/pinkSub.d8c44278ce311984769d.otf",
+    "static/media/atom.png": "./static/media/atom.8de031158034160f496d.png",
+    "static/media/brasil.png": "./static/media/brasil.0c77650925217bbc790d.png",
+    "static/media/support.png": "./static/media/support.ecc494d21d9b57160f10.png",
+    "static/media/empathy.png": "./static/media/empathy.ad4c873ffd3b9cb9e3e0.png",
+    "static/media/puzzle.png": "./static/media/puzzle.6475833b3ee17a383390.png",
+    "static/media/eua.png": "./static/media/eua.7a06415764dfb495098b.png",
+    "static/media/muscle.png": "./static/media/muscle.edaf7c731e77f749e65b.png",
+    "static/media/clock.png": "./static/media/clock.fe8a769b9ab406001b68.png",
+    "static/media/motivation.png": "./static/media/motivation.998e330c52ea692c4317.png",
+    "static/media/organize.png": "./static/media/organize.1b15e4a8a01abfe26b56.png",
+    "static/media/provision.png": "./static/media/provision.2d4b20e4c544747ad3cc.png",
+    "index.html": "./index.html",
+    "main.e36c0a25.css.map": "./static/css/main.e36c0a25.css.map",
+    "main.04257474.js.map": "./static/js/main.04257474.js.map",
+    "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e36c0a25.css",
+    "static/js/main.04257474.js"
+  ]
+}
