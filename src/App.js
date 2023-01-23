@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import Header from './Components/Header';
+import Home from './Components/Home';
+import About from './Components/About';
+import Skills from './Components/Skills';
+import Projects from './Components/Projects';
+import Contact from './Components/Contact';
+import Transition from './Components/transition';
+import { useState } from 'react';
 
 function App() {
+  const [language, setLanguege] = useState('ENGLISH')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body>
+      <div>
+        <Header language={language}/>
+        <Home language={language} changeLanguage={setLanguege}/>
+        <Transition nameClass={'brick-transition'} />
+        <About language={language} />
+        <Transition nameClass={'about-skills'} />
+        <Skills language={language} />
+        <Transition nameClass={'skills-projects'} />
+        <Projects language={language} />
+        <Transition nameClass={'brick-transition'} />
+        <Contact language={language} />
+      </div>
+    </body>
   );
 }
 

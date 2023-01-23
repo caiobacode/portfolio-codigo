@@ -1,0 +1,191 @@
+.contact {
+  height: 28rem;
+  background-color: #3e2e28;
+  border: solid white 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 510px;
+  border-radius: 25px;
+}
+
+.back-div {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30rem;
+  background-image: linear-gradient(170deg, #1f1714 30%,  black);
+}
+
+.contact-title {
+  font-family: titleFont;
+  font-size: 50px;
+  color: white;
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%)); 
+  filter: drop-shadow(0px 0px 10px rgba(0 0 0 / 90%));
+}
+
+.contact-title-ptbr {
+  font-family: titleFont;
+  font-size: 40px;
+  color: white;
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%)); 
+  filter: drop-shadow(0px 0px 10px rgba(0 0 0 / 90%));
+}
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+#name {
+  margin-bottom: 7px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: regularFont;
+  border: solid 3px transparent;
+  transition: outline 200ms ease-in-out, border 200ms ease-in-out;
+}
+
+#name:focus {
+  outline: none;
+  border: solid 3px #b09f69;
+}
+
+#name:hover {
+  outline: none;
+  border: solid 3px #b09f69;
+}
+
+#name-label {
+  color: white;
+  font-family: myFont;
+  font-size: 20px;
+}
+
+#email {
+  margin-bottom: 7px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: regularFont;
+  border: solid 3px transparent;
+  transition: outline 200ms ease-in-out, border 200ms ease-in-out;
+}
+
+#email:focus {
+  outline: none;
+  border: solid 3px #b09f69;
+}
+
+#email:hover {
+  outline: none;
+  border: solid 3px #b09f69;
+}
+
+#email-label {
+  color: white;
+  font-family: myFont;
+  font-size: 20px;
+}
+
+#message {
+  margin-bottom: 20px;
+  resize: none;
+  height: 100px;
+  font-size: 18px;
+  font-family: regularFont;
+  border-radius: 5px;
+  border: solid 3px transparent;
+  transition: outline 200ms ease-in-out, border 200ms ease-in-out;
+}
+
+#message:focus {
+  outline: none;
+  border: solid 3px #b09f69;
+}
+
+#message:hover {
+  outline: none;
+  border: solid 3px #b09f69;
+}
+
+#message-label {
+  color: white;
+  font-family: myFont;
+  font-size: 20px;
+}
+
+#send-btn {
+  font-family: titleFont;
+  font-size: 30px;
+  color: black;
+  margin-left: 70px;
+  width: 260px;
+  height: 55px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-image: linear-gradient(120deg, #b09f69, #7c5c50);
+  transition: transform 150ms ease-in-out;
+}
+
+#send-btn:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 450px) {
+  .contact-title {
+    font-size: 35px;
+  }
+
+  .contact-title-ptbr {
+    font-size: 30px;
+  }
+  .contact-form {
+    width: 300px;
+  }
+  #send-btn {
+    font-size: 20px;
+    width: 160px;
+    height: 55px;
+  }
+  .contact {
+    height: 26.5rem;
+  }
+  .back-div {
+    height: 28rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .contact-title {
+    font-size: 30px;
+  }
+  .contact-title-ptbr {
+    font-size: 22px;
+  }
+  .contact-form {
+    width: 230px;
+  }
+  #send-btn {
+    margin-left: 35px;
+  }
+}
+
+@media (max-width: 250px) {
+  .contact-title {
+    font-size: 25px;
+  }
+  .contact-title-ptbr {
+    font-size: 18px;
+  }
+  .contact-form {
+    width: 180px;
+  }
+  #send-btn {
+    margin-left: 10px;
+  }
+}
