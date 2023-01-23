@@ -147,3 +147,87 @@
     font-size: 18px;
   }
 }
+@media (max-width: 590px) {
+  .about-text-p {
+    font-size: 20px;
+  }
+  .about-text-portuguese {
+    font-size: 18px;
+  }
+  .h2-title {
+    font-size: 55px;
+  }
+  .about-div-text {
+    padding: 20px 20px 20px;
+  }
+}
+
+@media (max-width: 440px) {
+  .about-text-p {
+    font-size: 16px;
+  }
+  .about-text-portuguese {
+    font-size: 15px;
+  }
+  .h2-title {
+    font-size: 45px;
+  }
+  .foto-eu {
+    width: 180px;
+  }
+  .about-text-div {
+    margin-top: 330px;
+  }
+  .about-text {
+    font-size: 16px;
+    
+  }
+}
+
+@media (max-width: 360px) {
+  .about-text-p {
+    font-size: 14px;
+  }
+  .about-text-portuguese {
+    font-size: 20px;
+  }
+  .about-text-div {
+    margin-top: 360px;
+  }
+  .about-div-text {
+    padding: 10px 10px 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .h2-title{
+    font-size: 35px;
+  }
+  .about-text {
+    font-size: 13px;
+  }
+  .about-text-div {
+    margin-top: 340px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 260px) {
+  .about-div {
+    height: 68rem;
+  }
+  .about-text-div {
+    margin-top: 400px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 235px) {
+  .h2-title{
+    font-size: 30px;
+  }
+  .about-text-div {
+    margin-top: 400px;
+    width: 90%;
+  }
+}
