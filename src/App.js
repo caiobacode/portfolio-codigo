@@ -9,7 +9,7 @@ import Transition from './Components/transition';
 import { useState } from 'react';
 
 function App() {
-  const [language, setLanguege] = useState('PORTUGUESE')
+  const [language, setLanguege] = useState('ENGLISH')
   return (
     <body>
       <div>

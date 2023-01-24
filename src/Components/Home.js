@@ -13,8 +13,13 @@ function Home(props) {
     <div className="home" id='home'>
       <div className="title-div">
         <h1 className="Title">Caio Oliveira</h1>
+        <div className="subtitle-div">
+        <h2 className="subTitle">{language === 'ENGLISH' ? 'Web Developer' : 'Desenvolvedor Web'}</h2>
+        <div className="white-line">
+        </div>
       </div>
-      <div>
+      </div>
+      <div className="social-div">
         <button
           className="github-btn"
           type="button"
@@ -33,11 +38,6 @@ function Home(props) {
               src={linkedinImg}
               />
           </button>
-      </div>
-      <div className="subtitle-div">
-        <h2 className="subTitle">{language === 'ENGLISH' ? 'Web Developer' : 'Desenvolvedor Web'}</h2>
-        <div className="white-line">
-        </div>
       </div>
       <div className="language-div">
         <button 

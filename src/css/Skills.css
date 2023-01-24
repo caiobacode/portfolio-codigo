@@ -33,6 +33,7 @@
 .skills-content {
   position: absolute;
   border-radius: 0px 20px 20px 20px;
+  margin: 40px 0;
   height: 380px;
   width: 970px;
   margin-left: 135px;
@@ -74,7 +75,7 @@
   background-color: #4e3832;
   height: 80px;
   border-radius: 20px 30px 0px 0px;
-  width: 175px;
+  width: 185px;
   -webkit-filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%)); 
   filter: drop-shadow(2px 4px 4px rgba(0 0 0 / 90%));
   transition: 0.4s ease-in-out;
@@ -105,6 +106,14 @@
   margin-top: 15px;
   width: 250px;
   height: 310px;
+  padding: 20px;
+}
+
+.soft-div-two {
+  margin-left: 23px;
+  margin-top: 15px;
+  width: 250px;
+  height: 210px;
   padding: 20px;
 }
 
@@ -205,7 +214,7 @@
 
 @media (max-width: 1500px) {
   .skills-title-div {
-    margin-left: 70%;
+    margin-left: 75%;
   }
   .skills-content {
     width: 800px;
@@ -234,5 +243,287 @@
   
   .soft-skills-card {
     width: 190px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .skills-title-div {
+    margin-left: 70%;
+  }
+  .skills-btns {
+    margin-left: 65px;
+  }
+  .skills-content {
+    width: 600px;
+    margin-left: 65px;
+  }
+  .hard-div {
+    width: 115px;
+  }
+  
+  .hard-skill-name {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .hard-skills-card {
+    width: 120px;
+  }
+
+  .hard-skills-img {
+    max-width: 25px;
+    max-height: 25px;
+  }
+
+  .soft-div {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 160px;
+    padding: 20px 20px 20px 9px;
+  }
+
+  .soft-div-two {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 160px;
+    padding: 20px 20px 20px 9px;
+  }
+
+  .soft-skill-name {
+    font-size: 16px;
+    align-items: center;
+  }
+  
+  .soft-skills-card {
+    width: 170px;
+  }
+
+  .soft-skills-img {
+    max-width: 35px;
+    max-height: 35px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .skills {
+    z-index: -10;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+    height: 70rem;
+  }
+  .skills-title-div {
+    order: -1;
+    position: initial;
+    margin-left: 0%;
+    margin-top: 50px;
+    height: 400px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hard-btn {
+    border-radius: 70px 30px 0px 0px;
+  }
+  .skills-btns {
+    margin-top: 540px;
+    margin-right: 150px;
+    
+  }
+  .skills-content {
+    border-radius: 20px;
+    margin-top: 165px;
+    z-index: 1;
+    position: initial;
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 630px) {
+  .skills-content {
+    width: 450px;
+  }
+  .hard-div {
+    width: 80px;
+  }
+  
+  .hard-skill-name {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  
+  .hard-skills-card {
+    width: 100px;
+  }
+
+  .hard-skills-img {
+    max-width: 25px;
+    max-height: 25px;
+  }
+
+  .soft-div {
+    margin-left: 10px;
+    margin-top: 25px;
+    width: 120px;
+    padding: 7px 7px 7px 9px;
+  }
+
+  .soft-skill-name {
+    font-size: 14px;
+    margin-left: 5px;
+    align-items: center;
+  }
+  
+  .soft-skills-card {
+    width: 125px;
+  }
+
+  .soft-skills-img {
+    max-width: 25px;
+    max-height: 25px;
+  }
+}
+
+@media (max-width: 460px) {
+  .skills {
+    height: 85rem;
+  }
+  .skills-content {
+    width: 332px;
+    height: auto;
+    border-radius: 0px 00px 20px 20px;
+  }
+  .skills-btns {
+    margin-left: 70px;
+  }
+  .ski-har-div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .ski-sof-div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .hard-div {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 133px;
+    padding: 0px 10px 0px 10px;
+  }
+  
+  .hard-skill-name {
+    font-size: 20px;
+    margin-left: 10px;
+    align-items: center;
+  }
+
+  .hard-skills-img {
+    max-width: 35px;
+    max-height: 35px;
+  }
+  
+  .hard-skills-card {
+    width: 150px;
+  }
+
+  .soft-skill-name {
+    font-size: 16px;
+    align-items: center;
+  }
+  
+  .soft-skills-card {
+    width: 140px;
+  }
+  .soft-div {
+    margin-left: 5px;
+    margin-top: 25px;
+    width: 150px;
+    height: 310px;
+    padding: 5px;
+  }
+  .soft-div-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-top: 15px;
+    width: 350px;
+    height: 110px;
+  }
+}
+
+@media (max-width: 360px) {
+  .skills-content {
+    width: 250px;
+  }
+  .skills-img {
+    width: 200px;
+  }
+  .skills-title {
+    font-size: 50px;
+  }
+  .hard-skill-name {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+
+  .hard-div {
+    width: 90px;
+  }
+  
+  .hard-skills-card {
+    width: 110px;
+  }
+
+  .hard-skills-img {
+    max-width: 25px;
+    max-height: 25px;
+  }
+
+  .soft-div {
+    margin-left: 10px;
+    margin-top: 25px;
+    width: 90px;
+    padding: 7px 7px 7px 9px;
+  }
+
+  .soft-skill-name {
+    font-size: 10px;
+    margin-left: 5px;
+    align-items: center;
+  }
+
+  .soft-div-two {
+    width: 250px;
+    margin-left: 10px;
+  }
+  
+  .soft-skills-card {
+    width: 100px;
+  }
+
+  .soft-skills-img {
+    max-width: 20px;
+    max-height: 20px;
+  }
+  .hard-btn {
+    width: 135px;
+    margin-left: 41px;
+    border-radius: 40px 10px 0px 0px;
+  }
+
+  .soft-btn {
+    width: 135px;
+    margin-left: 155px;
+    border-radius: 10px 40px 0px 0px;
   }
 }

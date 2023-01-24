@@ -6,12 +6,12 @@
 }
 
 .title-div {
-  margin-left: 150px;
+  margin-left: 15vw;
+  margin-top: 15vh;
   position: absolute
 }
 
 .Title {
-  margin-top: 150px;
   font-family: titleFont;
   font-size: 200px;
   color: white;
@@ -20,12 +20,13 @@
 }
 
 .subtitle-div {
-  margin-left: 200px;
+  margin-left: 5%;
+  top: 80%;
   position: absolute
 }
 
 .subTitle {
-  margin-top: 380px;
+  
   font-family: myFont;
   font-size: 60px;
   color: white;
@@ -44,7 +45,7 @@
 }
 
 .home-btn-div {
-  margin-top: 55rem;
+  margin-top: 90vh;
   width: 100%;
   position: absolute;
   display: flex;
@@ -69,16 +70,19 @@
   transform: scale(1.05);
 }
 
+.social-div {
+  z-index: 25;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
 .github-img {
   width: 60px;
   
 }
 
 .github-btn {
-  z-index: 1;
-  position: absolute;
-  margin-left: 50px;
-  margin-top: 20px;
   cursor: pointer;
   background-color: transparent;
   transition: transform 150ms ease-in-out;
@@ -95,10 +99,7 @@
 
 .linkedin-btn {
   cursor: pointer;
-  z-index: 1;
-  left: 130px;
-  top: 20px;
-  position: absolute;
+  z-index: 25;
   background-color: transparent;
   transition: transform 150ms ease-in-out;
 }
@@ -127,7 +128,7 @@
 
 .language-btn:not([disabled]):hover {
   transform: scale(1.1);
-  border: solid 3px #b09f69;
+  border-color: #b09f69;
   -webkit-filter: drop-shadow(0px 0px 20px #b09f69); 
   filter: drop-shadow(0px 0px 10px #b09f69);
 }
@@ -151,7 +152,7 @@
 
 .language-btn-eua:not([disabled]):hover {
   transform: scale(1.1);
-  border: solid 3px #b09f69;
+  border-color: #b09f69;
   -webkit-filter: drop-shadow(0px 0px 20px #b09f69); 
   filter: drop-shadow(0px 0px 10px #b09f69);
 }
@@ -169,10 +170,10 @@
 }
 
 .language-div {
-  z-index: 1;
+  z-index: 25;
   position: absolute;
-  top: 25px;
-  left: 365px;
+  margin-top: 25px;
+  margin-left: 23vw;
 }
 
 .line-bege {
@@ -188,27 +189,16 @@
   margin-left: 80px;
 }
 
+
 @media (max-width: 1600px) {
   .Title {
-    margin-top: 180px;
     font-size: 150px;
-  }
+  } 
   .title-div {
-    margin-left: 150px;
-    position: absolute
-  }
-  
-  .subtitle-div {
-    margin-left: 200px;
-    position: absolute
-  }
-  
+    margin-top: 20vh;
+  } 
   .subTitle {
-    margin-top: 360px;
     font-size: 50px;
-  }
-  .language-div {
-    left: 320px;
   }
   .home-btn-about {
     font-size: 35px;
@@ -217,29 +207,213 @@
 
 @media (max-width: 1200px) {
   .Title {
-    margin-top: 180px;
     font-size: 120px;
   }
   .title-div {
-    margin-left: 130px;
-    position: absolute
-  }
-  
-  .subtitle-div {
-    margin-left: 180px;
+    margin-top: 25vh;
     position: absolute
   }
   
   .subTitle {
-    margin-top: 330px;
     font-size: 40px;
-  }
-
-  .language-div {
-    left: 250px;
   }
 
   .home-btn-about {
     font-size: 30px;
+  }
+
+  .seta {
+    margin-left: 10px;
+    width: 35px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Title {
+    font-size: 80px;
+  }
+  .title-div {
+    margin-top: 30vh;
+    position: absolute
+  }
+  
+  .subTitle {
+    font-size: 30px;
+  }
+
+  .white-line {
+    height: 2px;
+    background-color: white;
+  }
+  .social-div {
+    margin-left: 30px;
+    margin-top: 120px;
+    z-index: 15;
+  }
+  .language-div {
+    z-index: 30;
+    margin-top: 120px;
+    right: 20px;
+    z-index: 15;
+  }
+}
+
+@media (max-width: 680px) {
+  .home {
+    background-image: linear-gradient(to top right, #583b28, #120c08);
+  }
+  .Title {
+    font-size: 70px;
+  }
+  .title-div {
+    margin-top: 31vh;
+    margin-left: 8vw;
+    position: absolute
+  }
+  .home-btn-about {
+    font-size: 25px;
+  }
+  .seta {
+    margin-left: 10px;
+    width:25px;
+  }
+  .linkedin-img {
+    width: 40px;
+  }
+  .github-img {
+    width: 40px;
+  }
+  .social-div {
+    margin-left: 0px;
+    width: 26%;
+    margin-top: 68vh;
+    background-color: #24292e;
+    border-radius: 20px;
+    height: 44px;
+    right: 37%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-filter: drop-shadow(0px 0px 20px black); 
+    filter: drop-shadow(0px 0px 10px black);
+  }
+  .language-div {
+    margin-top: 58vh;
+    right: 37%;
+    height: 44px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26%;
+    background-color: #b09f69;  
+    -webkit-filter: drop-shadow(0px 0px 20px black); 
+    filter: drop-shadow(0px 0px 10px black);
+
+  }
+  .brasil-img {
+    width: 35px;
+    height: 23.3px;
+    border-radius: 20px;
+  }
+
+  .eua-img {
+    width: 35px;
+    height: 23.3px;
+    border-radius: 20px;
+  }
+  .language-btn-eua {
+    width: 38.5px;
+    height: 25.5px;
+    border: solid 1px transparent;
+  }
+  .language-btn {
+    width: 38.5px;
+    height: 25.5px;
+    border: solid 1px transparent;
+  }
+  .language-btn:enabled + .line-bege {
+    margin-right: 45px;
+  }
+  .line-bege {
+    position: absolute;
+    width: 35px;
+    height: 3px;
+    margin-top: 35px;
+    background-color: wheat;
+  }
+  .language-btn:disabled + .line-bege {
+    margin-left: 43px;
+  }
+}
+
+@media (max-width: 560px) {
+  .Title {
+    font-size: 60px;
+  }
+  .title-div {
+    margin-top: 31vh;
+    margin-left: 5vw;
+    position: absolute
+  }
+  .subTitle {
+    font-size: 25px;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .language-div {
+    right: 32.5%;
+    width: 35%;
+  }
+  .Title {
+    font-size: 40px;
+  }
+  .title-div {
+    margin-top: 31vh;
+    margin-left: 5vw;
+    position: absolute
+  }
+  .social-div {
+    right: 32.5%;
+    width: 35%;
+  }
+
+  .subTitle {
+    font-size: 15px;
+  }
+  .home-btn-about {
+    font-size: 15px;
+  }
+  .seta {
+    margin-left: 10px;
+    width: 15px;
+  }
+}
+
+@media (max-width: 330px) {
+  .Title {
+    font-size: 30px;
+  }
+  .title-div {
+    margin-top: 31vh;
+    margin-left: 5vw;
+    position: absolute
+  }
+
+  .subTitle {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 260px) {
+  .Title {
+    font-size: 25px;
+  }
+
+  .subTitle {
+    font-size: 10px;
   }
 }

@@ -18,14 +18,29 @@ function About({language}) {
         
         <div className="about-text-div">
           <div className="about-div-text">
-          <text className="about-text">
-          Sempre apaixonado por tecnologia, comecei a programar no momento em que 
-          tive uma oportunidade, e desde então venho buscando me desenvolver 
-          cada vez mais nessa área, sou relativamente novo neste segmento 
-          porém sempre estou em busca de novos aprendizados e experiências,
-          valorizando cada etapa da minha jornada.
+            {
+              language === 'ENGLISH' ? (
+                <text className="about-text">
+                  i've always been a technology lover, i was a video editor, 
+                  so, I've used many different programs and technologies, 
+                  I liked it a lot, but i found my real vocation when i coded 
+                  my first project in Python, the feeling of completing a challenge, 
+                  and resolve problems is so satisfying, after that i started to study 
+                  coding a lot and joined in Trybe Web Developer course, since then 
+                  I have done a many projects in JavaScript/ReactJS.
+                </text>
+              )
+              :
 
+          <text className="about-text">
+          Sempre apaixonado por tecnologia, já fui editor de video, então,
+          eu ja usei muitos programas e tecnologias diferentes,
+          e gostei muito disso, mas eu achei minha real vocação quando eu "codei" 
+          meu primeiro projeto em Python, a sensação de resolver problemas é muito satisfatótia,
+          depois disso eu comecei a estudar código bastante e entrei no curso de Devolvimento Web da Trybe,
+          após isso fiz diversos projetos em React/JS
           </text>
+          }
           </div>
         </div>
       </div>

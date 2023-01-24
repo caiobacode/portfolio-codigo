@@ -64,6 +64,7 @@
 .about-text-p {
   color: white;
   font-family: regularFont;
+  text-align: center;
   font-size: 30px;
   -webkit-filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%)); 
   filter: drop-shadow(0px 0px 4px rgba(0 0 0 / 90%));
@@ -132,6 +133,7 @@
   .about-div {
     background-color: #917c67;
     height: 55rem;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,6 +147,12 @@
   }
   .about-text {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-text-div {
+    margin-top: 480px;
   }
 }
 @media (max-width: 590px) {
@@ -176,7 +184,7 @@
     width: 180px;
   }
   .about-text-div {
-    margin-top: 330px;
+    margin-top: 340px;
   }
   .about-text {
     font-size: 16px;
@@ -213,9 +221,6 @@
 }
 
 @media (max-width: 260px) {
-  .about-div {
-    height: 68rem;
-  }
   .about-text-div {
     margin-top: 400px;
     width: 90%;
